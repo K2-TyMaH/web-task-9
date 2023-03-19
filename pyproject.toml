@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web-task-9"
+version = "0.1.0"
+description = ""
+authors = ["Vladyslav Chaban <dma.employee.v@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_task_9"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lxml = "^4.9.2"
+requests = "^2.28.2"
+beautifulsoup4 = "^4.11.2"
+scrapy = "^2.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
